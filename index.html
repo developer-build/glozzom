@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Glozzom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-----boostsrap css------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!----google font------->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;0,700;1,100;1,200;1,400&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/uikit.min.css">
+
+
+    <!----css--------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+    <!-----navbar start--------->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md " uk-sticky="top:200; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up" >
+        <div class="container">
+            <a class="navbar-brand" href="#">Glozzom</a>
+            <button class="navbar-toggler navbar-toggler-right shadow" data-toggle="collapse" data-target="#navbar" type="button"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bloge.html">Bloge</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contant.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!-----navbar end--------->
+
+    <!-----carousel-------->
+    <div id="show" class="bg-dark">
+        <div class="carousel slide" data-ride="carousel" id="carousel">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#carousel" data-slide-to="0"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active carousel-img-1">
+                    <div class="container">
+                        <div class="carousel-caption mb-5 p-5">
+                            <h1 class="display-4 text-light">Heading One</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse, voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!</p>
+                            <button class="btn btn-warning btn-lg">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-img-2">
+                    <div class="container">
+                        <div class="carousel-caption mb-4 pb-5 text-right">
+                            <h1 class="display-4 text-light">Heading Two</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse, voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!</p>
+                            <button class="btn btn-primary btn-lg">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-img-3">
+                    <div class="container">
+                        <div class="carousel-caption mb-5 pb-5 text-left">
+                            <h1 class="display-4 text-light"> Heading Three</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse, voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!</p>
+                            <button class="btn btn-success btn-lg">Lead More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" data-slide="prev" href="#carousel">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" data-slide="next" href="#carousel">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+
+<!----home icon------->
+<section id="hom-icon" class="text-center py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 my-4">
+                <i class="fab fa-apple"></i>
+                <h3 class="my-3">Turning Gears</h3>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, totam accusamus veritatis fugiat animi pariatur.</p>
+            </div>
+            <div class="col-md-4 my-2">
+                <i class="fa fa-cloud"></i>
+                <h3 class="my-3">Sending Data</h3>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, totam accusamus veritatis fugiat animi pariatur.</p>
+            </div>
+            <div class="col-md-4 my-2">
+                <i class="fa fa-cart-plus"></i>
+                <h3 class="my-3">Making Money</h3>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, totam accusamus veritatis fugiat animi pariatur.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----Get Started-------->
+<section class="py-5 text-center" id="Get-Started">
+<div class="imge-verlay">
+    <div class="container">
+        <div class="row">
+            <div class="col pt-5 my-2">
+                <h4 class="my-3 text-white">Are You Ready To Get Started?</h4>
+                <p class="lead text-white ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quaerat voluptatem laboriosam vero recusandae repellendus? Impedit iure est sit voluptatum blanditiis cum sequi laudantium quod dicta, a quaerat vel, obcaecati!</p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Home  Info Section -->
+<section class="py-5" id="homeinfo">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 text-center pt-5">
+            <h4>Lorem Ipsum Dolor Sit</h4>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque dignissimos recusandae nobis reiciendis voluptatem quae iusto, fugiat itaque iste explicabo.</p>
+            <button class="btn btn-outline-dark btn-lg my-3">Read More</button>
+        </div>
+        <div class="col-md-6">
+            <img class="img-fluid rounded shadow mt-3" src="img/pc.jpeg" alt="">
+        </div>
+    </div>
+</div>
+</section>
+<!----home video section---------->
+<section class="home-video py-5">
+    <div class="dark-overly">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="mt-5 p-5" uk-lightbox>
+                        <a href="https://youtu.be/-j2vvEeU_Oo">
+                            <i class=" fa fa-play"></i>
+                        </a>
+                    </div>
+                    <h2 class="text-white">Bootstrap 4 Crash Course</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-----photo gallery---------->
+<section id="photo-gallery" class="py-5" uk-lightbox>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <h2 class="text-weight-bold">Photo Gallery</h2>
+                <p class="lead pb-4">Check out our photos</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div>
+                    <a href="img/image1.jpeg">
+                        <img class="img-fluid" src="img/image1.jpeg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <a href="img/image2.jpeg">
+                        <img class="img-fluid" src="img/image2.jpeg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <a href="img/image3.jpeg">
+                        <img class="img-fluid" src="img/image3.jpeg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+              <div class="pt-o pt-md-4">
+                <a href="img/image4.jpeg">
+                    <img class="img-fluid" src="img/image4.jpeg" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+                <div class="pt-0 pt-md-4">
+                    <a href="img/image5.jpeg">
+                        <img class="img-fluid" src="img/image5.jpeg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="pt-0 pt-md-4">
+                    <a href="img/image6.jpeg">
+                    <img class="img-fluid" src="img/image6.jpeg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ <!-- Newsletter -->
+ <section id="newsletter" class="py-5 bg-dark text-light text-center">
+     <div class="container">
+         <div class="row">
+             <div class="col">
+                 <h2 class="text-light">Signup For Our Newsletter</h2>
+                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis magnam similique esse assumenda quasi repellendus illum perferendis quos aliquid possimus.</p>
+                 <form class="form-inline justify-content-center" action="#" method="POST">
+                     <label class="sr-only" for="name">Name</label>
+                     <input class="form-control m-2" type="text" placeholder="Enter Name">
+                     <label class="sr-only" for="Email">Email</label>
+                     <input class="form-control m-2" type="text" placeholder="Enter Email">
+                     <input class="btn btn-primary m-2" type="submit" value="subscribe">
+                 </form>
+             </div>
+         </div>
+     </div>
+ </section>
+<!-- Copyright -->
+<section id="copy-right" class="text-center text-light py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="lead mb-0">Copyright 2018 &copy;Ibrahim</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----js boostsrap------->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="js/uikit.min.js"></script>
+<script src="js/uikit-icons.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
